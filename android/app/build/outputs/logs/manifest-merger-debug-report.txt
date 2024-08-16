@@ -1,0 +1,535 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\main\AndroidManifest.xml:1:1-26:12
+MERGED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\debug\AndroidManifest.xml:2:1-9:12
+INJECTED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\debug\AndroidManifest.xml:2:1-9:12
+INJECTED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-camera] C:\Users\soler\projectes\compost-tracer\QR-reader-app\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalDebug\AndroidManifest.xml:2:1-16:12
+MERGED from [com.facebook.react:react-android:0.74.3] C:\Users\soler\.gradle\caches\transforms-3\5fc81fc4d08bbcda9657ea788a8db129\transformed\jetified-react-android-0.74.3-debug\AndroidManifest.xml:2:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\soler\.gradle\caches\transforms-3\eb898227ad00ac1be2e0c250ef04612e\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\soler\.gradle\caches\transforms-3\45e076d10f319a381a2d386ebe4dbb78\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\57983ea703a093812e2df54456c278c2\transformed\jetified-imagepipeline-okhttp3-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\fa413afd4f14f680d7ef05011fe82550\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\soler\.gradle\caches\transforms-3\1e1c6797e86602415348aab919fb53f2\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\soler\.gradle\caches\transforms-3\f11b94f208b4457cf96ef5c593c7ed23\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\soler\.gradle\caches\transforms-3\432da92664ddf65fde51be3d9043cf85\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:vision-common:16.5.0] C:\Users\soler\.gradle\caches\transforms-3\4a464ce304df635343d69d6f8e52bcce\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.mlkit:common:17.2.0] C:\Users\soler\.gradle\caches\transforms-3\16f1f5eb611ea7564e04529b896d1b29\transformed\jetified-common-17.2.0\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.android.gms:play-services-base:17.6.0] C:\Users\soler\.gradle\caches\transforms-3\189d350b2a0f371be11a31ec303b1a23\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.2.1] C:\Users\soler\.gradle\caches\transforms-3\169fe059858812ef75dcbd5a37208c90\transformed\jetified-play-services-tasks-17.2.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.6.0] C:\Users\soler\.gradle\caches\transforms-3\e5085cd3ed1f036e983b8ece7ccbba4c\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\soler\.gradle\caches\transforms-3\ce881ef3a1a4f3478d9368087ec50fa4\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\soler\.gradle\caches\transforms-3\f9b992355e285e000815545566f5c5f2\transformed\jetified-activity-1.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\soler\.gradle\caches\transforms-3\fc3c2964fb224f327fbf6edea5a5597b\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\224f9bd0bc9b579697a95894dc6684a0\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\f99c3b716966af81d160dc13d2aedb2a\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\bc421e2382801029bed59a6088e7f44b\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\soler\.gradle\caches\transforms-3\1f7f6d332d96ba1ae6a5918b50aa8437\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\soler\.gradle\caches\transforms-3\a163f732548c5e9d94a6db3cc39129c7\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:fresco:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\847fc756d511904b3dd961f5fa714d02\transformed\jetified-fresco-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:drawee:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\50ccdd284007a549c20baede61dae12c\transformed\jetified-drawee-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:nativeimagefilters:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\75db8d33cbdc0525414c52324493747d\transformed\jetified-nativeimagefilters-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:memory-type-native:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\a2f11e49e44e46800ea6085deb5958f5\transformed\jetified-memory-type-native-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:memory-type-java:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\26d90d129b97c079d03b24ca06083996\transformed\jetified-memory-type-java-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:imagepipeline-native:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\7ae2c72d01bc3da5035effc941a4c0c7\transformed\jetified-imagepipeline-native-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\c56848abdb9471db337e46200831f79d\transformed\jetified-memory-type-ashmem-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:imagepipeline:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\ea6a39e6ae53e28dc90b4d98101561d8\transformed\jetified-imagepipeline-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\5b0ba5edbe7ca56128995b3c9ce68557\transformed\jetified-nativeimagetranscoder-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:imagepipeline-base:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\d991a8931f506558e0a68fd5671830d6\transformed\jetified-imagepipeline-base-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:middleware:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\dae92bdbd483645b1588336ddf28eed9\transformed\jetified-middleware-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:ui-common:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\1d0c2804e11f8582997994b4672f12a3\transformed\jetified-ui-common-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:soloader:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\23c83d4e834a5b48200e4a1630602687\transformed\jetified-soloader-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:fbcore:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\dbaab54f805d0ed375e1e0d40826e554\transformed\jetified-fbcore-3.1.3\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.react:hermes-android:0.74.3] C:\Users\soler\.gradle\caches\transforms-3\ecef26f4dc764a3efd1f129ec6eb5985\transformed\jetified-hermes-android-0.74.3-debug\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\soler\.gradle\caches\transforms-3\a231b51d06e81621ce23e6a1b5387d92\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\soler\.gradle\caches\transforms-3\aa76550168e6cd9e89c68262473292cf\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\soler\.gradle\caches\transforms-3\f460438c1303afff751281986a8274cb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\soler\.gradle\caches\transforms-3\f225c3870fb0d4d5545a1c8839f5cd89\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\soler\.gradle\caches\transforms-3\2798c4ff8312f069edca6d2f8cf7a243\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.1.0] C:\Users\soler\.gradle\caches\transforms-3\a1b3b6d1777b8be85966d06dcaaeba9c\transformed\jetified-tracing-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\soler\.gradle\caches\transforms-3\4874c5cc651cd5b02ca289ac5f9a059f\transformed\exifinterface-1.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.1.0] C:\Users\soler\.gradle\caches\transforms-3\b6194897d955b834d4d6ee70939e6652\transformed\jetified-autofill-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\651ad3d0877c545314cbcc53ebf0fa8d\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\soler\.gradle\caches\transforms-3\467dd5decd628e7eb3e9e613aabcf29e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\soler\.gradle\caches\transforms-3\3bdcb96218fea61c40e7306d544040ac\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\11487b7aa33d1d94b97433ec5f9ff9d9\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\soler\.gradle\caches\transforms-3\ac453265c3ed150edb578d8f8bd4dd9d\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\6b8b4ead1e828127d97a29a7bbe37001\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\e856fc586bc21cde09c76a318f975738\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\4cb42121e10a64c168c30fb710438190\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\cbcf9a7dbb0be3ee90e370310511a3c9\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\2b2b3c67f6a04886057b348d3324fd31\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.9.0] C:\Users\soler\.gradle\caches\transforms-3\9f17e169fbdaf66e846780ff7e435281\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\2d2525d509b0dbb1ac22bb9734fc7ec0\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\soler\.gradle\caches\transforms-3\af75ce41ae3914999c0f35800308021d\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\013029abaa810256159d817cf3a8cf81\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\soler\.gradle\caches\transforms-3\62bba22b7e1121ddc3ca479349c03859\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\soler\.gradle\caches\transforms-3\e3ab1edcc3f8a65a35b85821b768d2c4\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\soler\.gradle\caches\transforms-3\cf6d2018d16b232204200d29c1574b78\transformed\jetified-transport-api-2.2.1\AndroidManifest.xml:15:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\soler\.gradle\caches\transforms-3\942480da5f7d5b5538f621897017b64b\transformed\jetified-firebase-components-16.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\soler\.gradle\caches\transforms-3\285196ddd5b9ccff35437fda45446b18\transformed\jetified-firebase-encoders-json-17.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\soler\.gradle\caches\transforms-3\e1aa045fb82f5bc81b35b2dde15dbd38\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\soler\.gradle\caches\transforms-3\177f5c30172bb85dce19d2026d623664\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\soler\.gradle\caches\transforms-3\f1d8eeab142f4aed3fa33e24ecb7cf06\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\soler\.gradle\caches\transforms-3\776b92f04c01583d05fbd9f5dbe1560f\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\02002bee3952eae831f1829954a294ab\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\1cf5768f2eea2e2c9e69854c6ef89297\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\de710eaeb8db9dfbf746b43586f1c0b6\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\soler\.gradle\caches\transforms-3\fd2287cad47802632dabf7135c1d04bc\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fbjni:fbjni:0.6.0] C:\Users\soler\.gradle\caches\transforms-3\5ee50b136b8de6184236541963428523\transformed\jetified-fbjni-0.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.soloader:soloader:0.10.5] C:\Users\soler\.gradle\caches\transforms-3\732d9ea42786f048a0561eb4d2aea152\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\soler\.gradle\caches\transforms-3\5db47baf2e7e8696b6a1cc707e4b1b04\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:2:1-9:12
+	package
+		INJECTED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\debug\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\debug\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\debug\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\debug\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\main\AndroidManifest.xml:3:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\soler\.gradle\caches\transforms-3\62bba22b7e1121ddc3ca479349c03859\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\soler\.gradle\caches\transforms-3\62bba22b7e1121ddc3ca479349c03859\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\main\AndroidManifest.xml:3:22-64
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\main\AndroidManifest.xml:4:5-65
+MERGED from [:react-native-camera] C:\Users\soler\projectes\compost-tracer\QR-reader-app\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalDebug\AndroidManifest.xml:7:5-65
+MERGED from [:react-native-camera] C:\Users\soler\projectes\compost-tracer\QR-reader-app\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalDebug\AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\main\AndroidManifest.xml:4:22-62
+application
+ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\main\AndroidManifest.xml:6:5-25:19
+MERGED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\main\AndroidManifest.xml:6:5-25:19
+MERGED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\main\AndroidManifest.xml:6:5-25:19
+INJECTED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\debug\AndroidManifest.xml:5:5-8:50
+MERGED from [com.facebook.react:react-android:0.74.3] C:\Users\soler\.gradle\caches\transforms-3\5fc81fc4d08bbcda9657ea788a8db129\transformed\jetified-react-android-0.74.3-debug\AndroidManifest.xml:18:5-22:19
+MERGED from [com.facebook.react:react-android:0.74.3] C:\Users\soler\.gradle\caches\transforms-3\5fc81fc4d08bbcda9657ea788a8db129\transformed\jetified-react-android-0.74.3-debug\AndroidManifest.xml:18:5-22:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\soler\.gradle\caches\transforms-3\1e1c6797e86602415348aab919fb53f2\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\soler\.gradle\caches\transforms-3\1e1c6797e86602415348aab919fb53f2\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\soler\.gradle\caches\transforms-3\f11b94f208b4457cf96ef5c593c7ed23\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\soler\.gradle\caches\transforms-3\f11b94f208b4457cf96ef5c593c7ed23\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\soler\.gradle\caches\transforms-3\432da92664ddf65fde51be3d9043cf85\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\soler\.gradle\caches\transforms-3\432da92664ddf65fde51be3d9043cf85\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:16.5.0] C:\Users\soler\.gradle\caches\transforms-3\4a464ce304df635343d69d6f8e52bcce\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:vision-common:16.5.0] C:\Users\soler\.gradle\caches\transforms-3\4a464ce304df635343d69d6f8e52bcce\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.mlkit:common:17.2.0] C:\Users\soler\.gradle\caches\transforms-3\16f1f5eb611ea7564e04529b896d1b29\transformed\jetified-common-17.2.0\AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.mlkit:common:17.2.0] C:\Users\soler\.gradle\caches\transforms-3\16f1f5eb611ea7564e04529b896d1b29\transformed\jetified-common-17.2.0\AndroidManifest.xml:8:5-24:19
+MERGED from [com.google.android.gms:play-services-base:17.6.0] C:\Users\soler\.gradle\caches\transforms-3\189d350b2a0f371be11a31ec303b1a23\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.6.0] C:\Users\soler\.gradle\caches\transforms-3\189d350b2a0f371be11a31ec303b1a23\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.2.1] C:\Users\soler\.gradle\caches\transforms-3\169fe059858812ef75dcbd5a37208c90\transformed\jetified-play-services-tasks-17.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.1] C:\Users\soler\.gradle\caches\transforms-3\169fe059858812ef75dcbd5a37208c90\transformed\jetified-play-services-tasks-17.2.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.6.0] C:\Users\soler\.gradle\caches\transforms-3\e5085cd3ed1f036e983b8ece7ccbba4c\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.6.0] C:\Users\soler\.gradle\caches\transforms-3\e5085cd3ed1f036e983b8ece7ccbba4c\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\soler\.gradle\caches\transforms-3\f460438c1303afff751281986a8274cb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\soler\.gradle\caches\transforms-3\f460438c1303afff751281986a8274cb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\soler\.gradle\caches\transforms-3\f225c3870fb0d4d5545a1c8839f5cd89\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\soler\.gradle\caches\transforms-3\f225c3870fb0d4d5545a1c8839f5cd89\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\soler\.gradle\caches\transforms-3\2798c4ff8312f069edca6d2f8cf7a243\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\soler\.gradle\caches\transforms-3\2798c4ff8312f069edca6d2f8cf7a243\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.core:core:1.9.0] C:\Users\soler\.gradle\caches\transforms-3\9f17e169fbdaf66e846780ff7e435281\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] C:\Users\soler\.gradle\caches\transforms-3\9f17e169fbdaf66e846780ff7e435281\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\soler\.gradle\caches\transforms-3\62bba22b7e1121ddc3ca479349c03859\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\soler\.gradle\caches\transforms-3\62bba22b7e1121ddc3ca479349c03859\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\soler\.gradle\caches\transforms-3\e3ab1edcc3f8a65a35b85821b768d2c4\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\soler\.gradle\caches\transforms-3\e3ab1edcc3f8a65a35b85821b768d2c4\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\soler\.gradle\caches\transforms-3\e1aa045fb82f5bc81b35b2dde15dbd38\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\soler\.gradle\caches\transforms-3\e1aa045fb82f5bc81b35b2dde15dbd38\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [com.facebook.soloader:soloader:0.10.5] C:\Users\soler\.gradle\caches\transforms-3\732d9ea42786f048a0561eb4d2aea152\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:11:5-15:19
+MERGED from [com.facebook.soloader:soloader:0.10.5] C:\Users\soler\.gradle\caches\transforms-3\732d9ea42786f048a0561eb4d2aea152\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\soler\.gradle\caches\transforms-3\5db47baf2e7e8696b6a1cc707e4b1b04\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\soler\.gradle\caches\transforms-3\5db47baf2e7e8696b6a1cc707e4b1b04\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:7:5-20
+	android:extractNativeLibs
+		INJECTED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\debug\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] C:\Users\soler\.gradle\caches\transforms-3\9f17e169fbdaf66e846780ff7e435281\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\main\AndroidManifest.xml:8:7-39
+		ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\main\AndroidManifest.xml:8:7-39
+	tools:ignore
+		ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\debug\AndroidManifest.xml:8:9-48
+	android:roundIcon
+		ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\main\AndroidManifest.xml:10:7-52
+		ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\main\AndroidManifest.xml:10:7-52
+	tools:targetApi
+		ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\debug\AndroidManifest.xml:7:9-29
+	android:icon
+		ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\main\AndroidManifest.xml:9:7-41
+		ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\main\AndroidManifest.xml:9:7-41
+	android:allowBackup
+		ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\main\AndroidManifest.xml:11:7-34
+		ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\main\AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\main\AndroidManifest.xml:12:7-38
+		ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\main\AndroidManifest.xml:12:7-38
+	android:usesCleartextTraffic
+		ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\debug\AndroidManifest.xml:6:9-44
+	android:name
+		ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\main\AndroidManifest.xml:7:7-38
+		ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\main\AndroidManifest.xml:7:7-38
+activity#com.qrreaderapp.MainActivity
+ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\main\AndroidManifest.xml:13:7-24:18
+	android:label
+		ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\main\AndroidManifest.xml:15:9-41
+	android:launchMode
+		ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\main\AndroidManifest.xml:17:9-40
+	android:windowSoftInputMode
+		ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\main\AndroidManifest.xml:18:9-51
+	android:exported
+		ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\main\AndroidManifest.xml:19:9-32
+	android:configChanges
+		ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\main\AndroidManifest.xml:16:9-118
+	android:name
+		ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\main\AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\main\AndroidManifest.xml:20:9-23:25
+action#android.intent.action.MAIN
+ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\main\AndroidManifest.xml:21:13-65
+	android:name
+		ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\main\AndroidManifest.xml:21:21-62
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\main\AndroidManifest.xml:22:13-73
+	android:name
+		ADDED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\main\AndroidManifest.xml:22:23-70
+uses-sdk
+INJECTED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\debug\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\debug\AndroidManifest.xml
+INJECTED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\debug\AndroidManifest.xml
+MERGED from [:react-native-camera] C:\Users\soler\projectes\compost-tracer\QR-reader-app\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalDebug\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-camera] C:\Users\soler\projectes\compost-tracer\QR-reader-app\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalDebug\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.react:react-android:0.74.3] C:\Users\soler\.gradle\caches\transforms-3\5fc81fc4d08bbcda9657ea788a8db129\transformed\jetified-react-android-0.74.3-debug\AndroidManifest.xml:10:5-44
+MERGED from [com.facebook.react:react-android:0.74.3] C:\Users\soler\.gradle\caches\transforms-3\5fc81fc4d08bbcda9657ea788a8db129\transformed\jetified-react-android-0.74.3-debug\AndroidManifest.xml:10:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\soler\.gradle\caches\transforms-3\eb898227ad00ac1be2e0c250ef04612e\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\soler\.gradle\caches\transforms-3\eb898227ad00ac1be2e0c250ef04612e\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\soler\.gradle\caches\transforms-3\45e076d10f319a381a2d386ebe4dbb78\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\soler\.gradle\caches\transforms-3\45e076d10f319a381a2d386ebe4dbb78\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\57983ea703a093812e2df54456c278c2\transformed\jetified-imagepipeline-okhttp3-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\57983ea703a093812e2df54456c278c2\transformed\jetified-imagepipeline-okhttp3-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\fa413afd4f14f680d7ef05011fe82550\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\fa413afd4f14f680d7ef05011fe82550\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\soler\.gradle\caches\transforms-3\1e1c6797e86602415348aab919fb53f2\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\soler\.gradle\caches\transforms-3\1e1c6797e86602415348aab919fb53f2\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\soler\.gradle\caches\transforms-3\f11b94f208b4457cf96ef5c593c7ed23\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\soler\.gradle\caches\transforms-3\f11b94f208b4457cf96ef5c593c7ed23\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\soler\.gradle\caches\transforms-3\432da92664ddf65fde51be3d9043cf85\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\soler\.gradle\caches\transforms-3\432da92664ddf65fde51be3d9043cf85\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:16.5.0] C:\Users\soler\.gradle\caches\transforms-3\4a464ce304df635343d69d6f8e52bcce\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:vision-common:16.5.0] C:\Users\soler\.gradle\caches\transforms-3\4a464ce304df635343d69d6f8e52bcce\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:17.2.0] C:\Users\soler\.gradle\caches\transforms-3\16f1f5eb611ea7564e04529b896d1b29\transformed\jetified-common-17.2.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.mlkit:common:17.2.0] C:\Users\soler\.gradle\caches\transforms-3\16f1f5eb611ea7564e04529b896d1b29\transformed\jetified-common-17.2.0\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-base:17.6.0] C:\Users\soler\.gradle\caches\transforms-3\189d350b2a0f371be11a31ec303b1a23\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.6.0] C:\Users\soler\.gradle\caches\transforms-3\189d350b2a0f371be11a31ec303b1a23\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.1] C:\Users\soler\.gradle\caches\transforms-3\169fe059858812ef75dcbd5a37208c90\transformed\jetified-play-services-tasks-17.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.1] C:\Users\soler\.gradle\caches\transforms-3\169fe059858812ef75dcbd5a37208c90\transformed\jetified-play-services-tasks-17.2.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.6.0] C:\Users\soler\.gradle\caches\transforms-3\e5085cd3ed1f036e983b8ece7ccbba4c\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.6.0] C:\Users\soler\.gradle\caches\transforms-3\e5085cd3ed1f036e983b8ece7ccbba4c\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\soler\.gradle\caches\transforms-3\ce881ef3a1a4f3478d9368087ec50fa4\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\soler\.gradle\caches\transforms-3\ce881ef3a1a4f3478d9368087ec50fa4\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\soler\.gradle\caches\transforms-3\f9b992355e285e000815545566f5c5f2\transformed\jetified-activity-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\soler\.gradle\caches\transforms-3\f9b992355e285e000815545566f5c5f2\transformed\jetified-activity-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\soler\.gradle\caches\transforms-3\fc3c2964fb224f327fbf6edea5a5597b\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\soler\.gradle\caches\transforms-3\fc3c2964fb224f327fbf6edea5a5597b\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\224f9bd0bc9b579697a95894dc6684a0\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\224f9bd0bc9b579697a95894dc6684a0\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\f99c3b716966af81d160dc13d2aedb2a\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\f99c3b716966af81d160dc13d2aedb2a\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\bc421e2382801029bed59a6088e7f44b\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\bc421e2382801029bed59a6088e7f44b\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\soler\.gradle\caches\transforms-3\1f7f6d332d96ba1ae6a5918b50aa8437\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\soler\.gradle\caches\transforms-3\1f7f6d332d96ba1ae6a5918b50aa8437\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\soler\.gradle\caches\transforms-3\a163f732548c5e9d94a6db3cc39129c7\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\soler\.gradle\caches\transforms-3\a163f732548c5e9d94a6db3cc39129c7\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:fresco:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\847fc756d511904b3dd961f5fa714d02\transformed\jetified-fresco-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:fresco:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\847fc756d511904b3dd961f5fa714d02\transformed\jetified-fresco-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:drawee:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\50ccdd284007a549c20baede61dae12c\transformed\jetified-drawee-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:drawee:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\50ccdd284007a549c20baede61dae12c\transformed\jetified-drawee-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagefilters:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\75db8d33cbdc0525414c52324493747d\transformed\jetified-nativeimagefilters-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagefilters:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\75db8d33cbdc0525414c52324493747d\transformed\jetified-nativeimagefilters-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-native:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\a2f11e49e44e46800ea6085deb5958f5\transformed\jetified-memory-type-native-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-native:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\a2f11e49e44e46800ea6085deb5958f5\transformed\jetified-memory-type-native-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-java:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\26d90d129b97c079d03b24ca06083996\transformed\jetified-memory-type-java-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-java:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\26d90d129b97c079d03b24ca06083996\transformed\jetified-memory-type-java-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-native:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\7ae2c72d01bc3da5035effc941a4c0c7\transformed\jetified-imagepipeline-native-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-native:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\7ae2c72d01bc3da5035effc941a4c0c7\transformed\jetified-imagepipeline-native-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-ashmem:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\c56848abdb9471db337e46200831f79d\transformed\jetified-memory-type-ashmem-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-ashmem:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\c56848abdb9471db337e46200831f79d\transformed\jetified-memory-type-ashmem-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\ea6a39e6ae53e28dc90b4d98101561d8\transformed\jetified-imagepipeline-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\ea6a39e6ae53e28dc90b4d98101561d8\transformed\jetified-imagepipeline-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagetranscoder:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\5b0ba5edbe7ca56128995b3c9ce68557\transformed\jetified-nativeimagetranscoder-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagetranscoder:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\5b0ba5edbe7ca56128995b3c9ce68557\transformed\jetified-nativeimagetranscoder-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-base:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\d991a8931f506558e0a68fd5671830d6\transformed\jetified-imagepipeline-base-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-base:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\d991a8931f506558e0a68fd5671830d6\transformed\jetified-imagepipeline-base-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:middleware:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\dae92bdbd483645b1588336ddf28eed9\transformed\jetified-middleware-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:middleware:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\dae92bdbd483645b1588336ddf28eed9\transformed\jetified-middleware-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:ui-common:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\1d0c2804e11f8582997994b4672f12a3\transformed\jetified-ui-common-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:ui-common:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\1d0c2804e11f8582997994b4672f12a3\transformed\jetified-ui-common-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:soloader:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\23c83d4e834a5b48200e4a1630602687\transformed\jetified-soloader-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:soloader:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\23c83d4e834a5b48200e4a1630602687\transformed\jetified-soloader-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:fbcore:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\dbaab54f805d0ed375e1e0d40826e554\transformed\jetified-fbcore-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:fbcore:3.1.3] C:\Users\soler\.gradle\caches\transforms-3\dbaab54f805d0ed375e1e0d40826e554\transformed\jetified-fbcore-3.1.3\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.react:hermes-android:0.74.3] C:\Users\soler\.gradle\caches\transforms-3\ecef26f4dc764a3efd1f129ec6eb5985\transformed\jetified-hermes-android-0.74.3-debug\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.react:hermes-android:0.74.3] C:\Users\soler\.gradle\caches\transforms-3\ecef26f4dc764a3efd1f129ec6eb5985\transformed\jetified-hermes-android-0.74.3-debug\AndroidManifest.xml:5:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\soler\.gradle\caches\transforms-3\a231b51d06e81621ce23e6a1b5387d92\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\soler\.gradle\caches\transforms-3\a231b51d06e81621ce23e6a1b5387d92\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\soler\.gradle\caches\transforms-3\aa76550168e6cd9e89c68262473292cf\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\soler\.gradle\caches\transforms-3\aa76550168e6cd9e89c68262473292cf\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\soler\.gradle\caches\transforms-3\f460438c1303afff751281986a8274cb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\soler\.gradle\caches\transforms-3\f460438c1303afff751281986a8274cb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\soler\.gradle\caches\transforms-3\f225c3870fb0d4d5545a1c8839f5cd89\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\soler\.gradle\caches\transforms-3\f225c3870fb0d4d5545a1c8839f5cd89\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\soler\.gradle\caches\transforms-3\2798c4ff8312f069edca6d2f8cf7a243\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\soler\.gradle\caches\transforms-3\2798c4ff8312f069edca6d2f8cf7a243\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.1.0] C:\Users\soler\.gradle\caches\transforms-3\a1b3b6d1777b8be85966d06dcaaeba9c\transformed\jetified-tracing-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.1.0] C:\Users\soler\.gradle\caches\transforms-3\a1b3b6d1777b8be85966d06dcaaeba9c\transformed\jetified-tracing-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\soler\.gradle\caches\transforms-3\4874c5cc651cd5b02ca289ac5f9a059f\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] C:\Users\soler\.gradle\caches\transforms-3\4874c5cc651cd5b02ca289ac5f9a059f\transformed\exifinterface-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] C:\Users\soler\.gradle\caches\transforms-3\b6194897d955b834d4d6ee70939e6652\transformed\jetified-autofill-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] C:\Users\soler\.gradle\caches\transforms-3\b6194897d955b834d4d6ee70939e6652\transformed\jetified-autofill-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\651ad3d0877c545314cbcc53ebf0fa8d\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\651ad3d0877c545314cbcc53ebf0fa8d\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\soler\.gradle\caches\transforms-3\467dd5decd628e7eb3e9e613aabcf29e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\soler\.gradle\caches\transforms-3\467dd5decd628e7eb3e9e613aabcf29e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\soler\.gradle\caches\transforms-3\3bdcb96218fea61c40e7306d544040ac\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\soler\.gradle\caches\transforms-3\3bdcb96218fea61c40e7306d544040ac\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\11487b7aa33d1d94b97433ec5f9ff9d9\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\11487b7aa33d1d94b97433ec5f9ff9d9\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\soler\.gradle\caches\transforms-3\ac453265c3ed150edb578d8f8bd4dd9d\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\soler\.gradle\caches\transforms-3\ac453265c3ed150edb578d8f8bd4dd9d\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\6b8b4ead1e828127d97a29a7bbe37001\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\6b8b4ead1e828127d97a29a7bbe37001\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\e856fc586bc21cde09c76a318f975738\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\e856fc586bc21cde09c76a318f975738\transformed\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\4cb42121e10a64c168c30fb710438190\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\4cb42121e10a64c168c30fb710438190\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\cbcf9a7dbb0be3ee90e370310511a3c9\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\cbcf9a7dbb0be3ee90e370310511a3c9\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\2b2b3c67f6a04886057b348d3324fd31\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\2b2b3c67f6a04886057b348d3324fd31\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] C:\Users\soler\.gradle\caches\transforms-3\9f17e169fbdaf66e846780ff7e435281\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] C:\Users\soler\.gradle\caches\transforms-3\9f17e169fbdaf66e846780ff7e435281\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\2d2525d509b0dbb1ac22bb9734fc7ec0\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\2d2525d509b0dbb1ac22bb9734fc7ec0\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\soler\.gradle\caches\transforms-3\af75ce41ae3914999c0f35800308021d\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\soler\.gradle\caches\transforms-3\af75ce41ae3914999c0f35800308021d\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\013029abaa810256159d817cf3a8cf81\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\013029abaa810256159d817cf3a8cf81\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\soler\.gradle\caches\transforms-3\62bba22b7e1121ddc3ca479349c03859\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\soler\.gradle\caches\transforms-3\62bba22b7e1121ddc3ca479349c03859\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\soler\.gradle\caches\transforms-3\e3ab1edcc3f8a65a35b85821b768d2c4\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\soler\.gradle\caches\transforms-3\e3ab1edcc3f8a65a35b85821b768d2c4\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\soler\.gradle\caches\transforms-3\cf6d2018d16b232204200d29c1574b78\transformed\jetified-transport-api-2.2.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.1] C:\Users\soler\.gradle\caches\transforms-3\cf6d2018d16b232204200d29c1574b78\transformed\jetified-transport-api-2.2.1\AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\soler\.gradle\caches\transforms-3\942480da5f7d5b5538f621897017b64b\transformed\jetified-firebase-components-16.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.1.0] C:\Users\soler\.gradle\caches\transforms-3\942480da5f7d5b5538f621897017b64b\transformed\jetified-firebase-components-16.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\soler\.gradle\caches\transforms-3\285196ddd5b9ccff35437fda45446b18\transformed\jetified-firebase-encoders-json-17.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:17.1.0] C:\Users\soler\.gradle\caches\transforms-3\285196ddd5b9ccff35437fda45446b18\transformed\jetified-firebase-encoders-json-17.1.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\soler\.gradle\caches\transforms-3\e1aa045fb82f5bc81b35b2dde15dbd38\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\soler\.gradle\caches\transforms-3\e1aa045fb82f5bc81b35b2dde15dbd38\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\soler\.gradle\caches\transforms-3\177f5c30172bb85dce19d2026d623664\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\soler\.gradle\caches\transforms-3\177f5c30172bb85dce19d2026d623664\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\soler\.gradle\caches\transforms-3\f1d8eeab142f4aed3fa33e24ecb7cf06\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\soler\.gradle\caches\transforms-3\f1d8eeab142f4aed3fa33e24ecb7cf06\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\soler\.gradle\caches\transforms-3\776b92f04c01583d05fbd9f5dbe1560f\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\soler\.gradle\caches\transforms-3\776b92f04c01583d05fbd9f5dbe1560f\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\02002bee3952eae831f1829954a294ab\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\02002bee3952eae831f1829954a294ab\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\1cf5768f2eea2e2c9e69854c6ef89297\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\1cf5768f2eea2e2c9e69854c6ef89297\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\de710eaeb8db9dfbf746b43586f1c0b6\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\soler\.gradle\caches\transforms-3\de710eaeb8db9dfbf746b43586f1c0b6\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\soler\.gradle\caches\transforms-3\fd2287cad47802632dabf7135c1d04bc\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\soler\.gradle\caches\transforms-3\fd2287cad47802632dabf7135c1d04bc\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fbjni:fbjni:0.6.0] C:\Users\soler\.gradle\caches\transforms-3\5ee50b136b8de6184236541963428523\transformed\jetified-fbjni-0.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fbjni:fbjni:0.6.0] C:\Users\soler\.gradle\caches\transforms-3\5ee50b136b8de6184236541963428523\transformed\jetified-fbjni-0.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.soloader:soloader:0.10.5] C:\Users\soler\.gradle\caches\transforms-3\732d9ea42786f048a0561eb4d2aea152\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.10.5] C:\Users\soler\.gradle\caches\transforms-3\732d9ea42786f048a0561eb4d2aea152\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\soler\.gradle\caches\transforms-3\5db47baf2e7e8696b6a1cc707e4b1b04\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\soler\.gradle\caches\transforms-3\5db47baf2e7e8696b6a1cc707e4b1b04\transformed\jetified-image-1.0.0-beta1\AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\debug\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\soler\projectes\compost-tracer\QR-reader-app\android\app\src\debug\AndroidManifest.xml
+uses-feature#android.hardware.camera
+ADDED from [:react-native-camera] C:\Users\soler\projectes\compost-tracer\QR-reader-app\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalDebug\AndroidManifest.xml:9:5-11:36
+	android:required
+		ADDED from [:react-native-camera] C:\Users\soler\projectes\compost-tracer\QR-reader-app\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalDebug\AndroidManifest.xml:11:9-33
+	android:name
+		ADDED from [:react-native-camera] C:\Users\soler\projectes\compost-tracer\QR-reader-app\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalDebug\AndroidManifest.xml:10:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from [:react-native-camera] C:\Users\soler\projectes\compost-tracer\QR-reader-app\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalDebug\AndroidManifest.xml:12:5-14:36
+	android:required
+		ADDED from [:react-native-camera] C:\Users\soler\projectes\compost-tracer\QR-reader-app\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalDebug\AndroidManifest.xml:14:9-33
+	android:name
+		ADDED from [:react-native-camera] C:\Users\soler\projectes\compost-tracer\QR-reader-app\node_modules\react-native-camera\android\build\intermediates\merged_manifest\generalDebug\AndroidManifest.xml:13:9-57
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from [com.facebook.react:react-android:0.74.3] C:\Users\soler\.gradle\caches\transforms-3\5fc81fc4d08bbcda9657ea788a8db129\transformed\jetified-react-android-0.74.3-debug\AndroidManifest.xml:16:5-78
+	android:name
+		ADDED from [com.facebook.react:react-android:0.74.3] C:\Users\soler\.gradle\caches\transforms-3\5fc81fc4d08bbcda9657ea788a8db129\transformed\jetified-react-android-0.74.3-debug\AndroidManifest.xml:16:22-75
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from [com.facebook.react:react-android:0.74.3] C:\Users\soler\.gradle\caches\transforms-3\5fc81fc4d08bbcda9657ea788a8db129\transformed\jetified-react-android-0.74.3-debug\AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from [com.facebook.react:react-android:0.74.3] C:\Users\soler\.gradle\caches\transforms-3\5fc81fc4d08bbcda9657ea788a8db129\transformed\jetified-react-android-0.74.3-debug\AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [com.facebook.react:react-android:0.74.3] C:\Users\soler\.gradle\caches\transforms-3\5fc81fc4d08bbcda9657ea788a8db129\transformed\jetified-react-android-0.74.3-debug\AndroidManifest.xml:20:13-77
+service#com.google.mlkit.common.internal.MlKitComponentDiscoveryService
+ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\soler\.gradle\caches\transforms-3\1e1c6797e86602415348aab919fb53f2\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\soler\.gradle\caches\transforms-3\f11b94f208b4457cf96ef5c593c7ed23\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\soler\.gradle\caches\transforms-3\f11b94f208b4457cf96ef5c593c7ed23\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\soler\.gradle\caches\transforms-3\432da92664ddf65fde51be3d9043cf85\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\soler\.gradle\caches\transforms-3\432da92664ddf65fde51be3d9043cf85\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:16.5.0] C:\Users\soler\.gradle\caches\transforms-3\4a464ce304df635343d69d6f8e52bcce\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:vision-common:16.5.0] C:\Users\soler\.gradle\caches\transforms-3\4a464ce304df635343d69d6f8e52bcce\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.mlkit:common:17.2.0] C:\Users\soler\.gradle\caches\transforms-3\16f1f5eb611ea7564e04529b896d1b29\transformed\jetified-common-17.2.0\AndroidManifest.xml:15:9-23:19
+MERGED from [com.google.mlkit:common:17.2.0] C:\Users\soler\.gradle\caches\transforms-3\16f1f5eb611ea7564e04529b896d1b29\transformed\jetified-common-17.2.0\AndroidManifest.xml:15:9-23:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\soler\.gradle\caches\transforms-3\1e1c6797e86602415348aab919fb53f2\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:11:13-37
+	tools:targetApi
+		ADDED from [com.google.mlkit:common:17.2.0] C:\Users\soler\.gradle\caches\transforms-3\16f1f5eb611ea7564e04529b896d1b29\transformed\jetified-common-17.2.0\AndroidManifest.xml:19:13-32
+	android:directBootAware
+		ADDED from [com.google.mlkit:common:17.2.0] C:\Users\soler\.gradle\caches\transforms-3\16f1f5eb611ea7564e04529b896d1b29\transformed\jetified-common-17.2.0\AndroidManifest.xml:17:13-43
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\soler\.gradle\caches\transforms-3\1e1c6797e86602415348aab919fb53f2\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:10:13-91
+meta-data#com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\soler\.gradle\caches\transforms-3\1e1c6797e86602415348aab919fb53f2\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\soler\.gradle\caches\transforms-3\1e1c6797e86602415348aab919fb53f2\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-barcode-scanning:16.2.0] C:\Users\soler\.gradle\caches\transforms-3\1e1c6797e86602415348aab919fb53f2\transformed\jetified-play-services-mlkit-barcode-scanning-16.2.0\AndroidManifest.xml:13:17-120
+meta-data#com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\soler\.gradle\caches\transforms-3\f11b94f208b4457cf96ef5c593c7ed23\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\soler\.gradle\caches\transforms-3\f11b94f208b4457cf96ef5c593c7ed23\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-face-detection:16.2.0] C:\Users\soler\.gradle\caches\transforms-3\f11b94f208b4457cf96ef5c593c7ed23\transformed\jetified-play-services-mlkit-face-detection-16.2.0\AndroidManifest.xml:13:17-114
+meta-data#com.google.firebase.components:com.google.mlkit.vision.text.internal.TextRegistrar
+ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\soler\.gradle\caches\transforms-3\432da92664ddf65fde51be3d9043cf85\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\soler\.gradle\caches\transforms-3\432da92664ddf65fde51be3d9043cf85\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-mlkit-text-recognition:16.3.0] C:\Users\soler\.gradle\caches\transforms-3\432da92664ddf65fde51be3d9043cf85\transformed\jetified-play-services-mlkit-text-recognition-16.3.0\AndroidManifest.xml:13:17-114
+meta-data#com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar
+ADDED from [com.google.mlkit:vision-common:16.5.0] C:\Users\soler\.gradle\caches\transforms-3\4a464ce304df635343d69d6f8e52bcce\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.mlkit:vision-common:16.5.0] C:\Users\soler\.gradle\caches\transforms-3\4a464ce304df635343d69d6f8e52bcce\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.mlkit:vision-common:16.5.0] C:\Users\soler\.gradle\caches\transforms-3\4a464ce304df635343d69d6f8e52bcce\transformed\jetified-vision-common-16.5.0\AndroidManifest.xml:13:17-124
+provider#com.google.mlkit.common.internal.MlKitInitProvider
+ADDED from [com.google.mlkit:common:17.2.0] C:\Users\soler\.gradle\caches\transforms-3\16f1f5eb611ea7564e04529b896d1b29\transformed\jetified-common-17.2.0\AndroidManifest.xml:9:9-13:38
+	android:authorities
+		ADDED from [com.google.mlkit:common:17.2.0] C:\Users\soler\.gradle\caches\transforms-3\16f1f5eb611ea7564e04529b896d1b29\transformed\jetified-common-17.2.0\AndroidManifest.xml:11:13-69
+	android:exported
+		ADDED from [com.google.mlkit:common:17.2.0] C:\Users\soler\.gradle\caches\transforms-3\16f1f5eb611ea7564e04529b896d1b29\transformed\jetified-common-17.2.0\AndroidManifest.xml:12:13-37
+	android:initOrder
+		ADDED from [com.google.mlkit:common:17.2.0] C:\Users\soler\.gradle\caches\transforms-3\16f1f5eb611ea7564e04529b896d1b29\transformed\jetified-common-17.2.0\AndroidManifest.xml:13:13-35
+	android:name
+		ADDED from [com.google.mlkit:common:17.2.0] C:\Users\soler\.gradle\caches\transforms-3\16f1f5eb611ea7564e04529b896d1b29\transformed\jetified-common-17.2.0\AndroidManifest.xml:10:13-78
+meta-data#com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar
+ADDED from [com.google.mlkit:common:17.2.0] C:\Users\soler\.gradle\caches\transforms-3\16f1f5eb611ea7564e04529b896d1b29\transformed\jetified-common-17.2.0\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.mlkit:common:17.2.0] C:\Users\soler\.gradle\caches\transforms-3\16f1f5eb611ea7564e04529b896d1b29\transformed\jetified-common-17.2.0\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.mlkit:common:17.2.0] C:\Users\soler\.gradle\caches\transforms-3\16f1f5eb611ea7564e04529b896d1b29\transformed\jetified-common-17.2.0\AndroidManifest.xml:21:17-120
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.6.0] C:\Users\soler\.gradle\caches\transforms-3\189d350b2a0f371be11a31ec303b1a23\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.6.0] C:\Users\soler\.gradle\caches\transforms-3\189d350b2a0f371be11a31ec303b1a23\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.6.0] C:\Users\soler\.gradle\caches\transforms-3\189d350b2a0f371be11a31ec303b1a23\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.6.0] C:\Users\soler\.gradle\caches\transforms-3\189d350b2a0f371be11a31ec303b1a23\transformed\jetified-play-services-base-17.6.0\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.6.0] C:\Users\soler\.gradle\caches\transforms-3\e5085cd3ed1f036e983b8ece7ccbba4c\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.6.0] C:\Users\soler\.gradle\caches\transforms-3\e5085cd3ed1f036e983b8ece7ccbba4c\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.6.0] C:\Users\soler\.gradle\caches\transforms-3\e5085cd3ed1f036e983b8ece7ccbba4c\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:24:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\soler\.gradle\caches\transforms-3\f460438c1303afff751281986a8274cb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\soler\.gradle\caches\transforms-3\f225c3870fb0d4d5545a1c8839f5cd89\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\soler\.gradle\caches\transforms-3\f225c3870fb0d4d5545a1c8839f5cd89\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\soler\.gradle\caches\transforms-3\2798c4ff8312f069edca6d2f8cf7a243\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\soler\.gradle\caches\transforms-3\2798c4ff8312f069edca6d2f8cf7a243\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\soler\.gradle\caches\transforms-3\f460438c1303afff751281986a8274cb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\soler\.gradle\caches\transforms-3\f460438c1303afff751281986a8274cb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\soler\.gradle\caches\transforms-3\f460438c1303afff751281986a8274cb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\soler\.gradle\caches\transforms-3\f460438c1303afff751281986a8274cb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\soler\.gradle\caches\transforms-3\f460438c1303afff751281986a8274cb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\soler\.gradle\caches\transforms-3\f460438c1303afff751281986a8274cb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\soler\.gradle\caches\transforms-3\f460438c1303afff751281986a8274cb\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\soler\.gradle\caches\transforms-3\f225c3870fb0d4d5545a1c8839f5cd89\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\soler\.gradle\caches\transforms-3\f225c3870fb0d4d5545a1c8839f5cd89\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\soler\.gradle\caches\transforms-3\f225c3870fb0d4d5545a1c8839f5cd89\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\soler\.gradle\caches\transforms-3\9f17e169fbdaf66e846780ff7e435281\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\soler\.gradle\caches\transforms-3\9f17e169fbdaf66e846780ff7e435281\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\soler\.gradle\caches\transforms-3\9f17e169fbdaf66e846780ff7e435281\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+permission#com.qrreaderapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\soler\.gradle\caches\transforms-3\9f17e169fbdaf66e846780ff7e435281\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\soler\.gradle\caches\transforms-3\9f17e169fbdaf66e846780ff7e435281\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\soler\.gradle\caches\transforms-3\9f17e169fbdaf66e846780ff7e435281\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\soler\.gradle\caches\transforms-3\9f17e169fbdaf66e846780ff7e435281\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\soler\.gradle\caches\transforms-3\9f17e169fbdaf66e846780ff7e435281\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+uses-permission#com.qrreaderapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\soler\.gradle\caches\transforms-3\9f17e169fbdaf66e846780ff7e435281\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\soler\.gradle\caches\transforms-3\9f17e169fbdaf66e846780ff7e435281\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\soler\.gradle\caches\transforms-3\62bba22b7e1121ddc3ca479349c03859\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\soler\.gradle\caches\transforms-3\e3ab1edcc3f8a65a35b85821b768d2c4\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\soler\.gradle\caches\transforms-3\e3ab1edcc3f8a65a35b85821b768d2c4\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\soler\.gradle\caches\transforms-3\62bba22b7e1121ddc3ca479349c03859\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:22-76
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\soler\.gradle\caches\transforms-3\62bba22b7e1121ddc3ca479349c03859\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\soler\.gradle\caches\transforms-3\e3ab1edcc3f8a65a35b85821b768d2c4\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\soler\.gradle\caches\transforms-3\e3ab1edcc3f8a65a35b85821b768d2c4\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\soler\.gradle\caches\transforms-3\62bba22b7e1121ddc3ca479349c03859\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\soler\.gradle\caches\transforms-3\62bba22b7e1121ddc3ca479349c03859\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\soler\.gradle\caches\transforms-3\62bba22b7e1121ddc3ca479349c03859\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\soler\.gradle\caches\transforms-3\62bba22b7e1121ddc3ca479349c03859\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\soler\.gradle\caches\transforms-3\62bba22b7e1121ddc3ca479349c03859\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\soler\.gradle\caches\transforms-3\e3ab1edcc3f8a65a35b85821b768d2c4\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\soler\.gradle\caches\transforms-3\e3ab1edcc3f8a65a35b85821b768d2c4\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\soler\.gradle\caches\transforms-3\e3ab1edcc3f8a65a35b85821b768d2c4\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\soler\.gradle\caches\transforms-3\e3ab1edcc3f8a65a35b85821b768d2c4\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\soler\.gradle\caches\transforms-3\e3ab1edcc3f8a65a35b85821b768d2c4\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\soler\.gradle\caches\transforms-3\e3ab1edcc3f8a65a35b85821b768d2c4\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\soler\.gradle\caches\transforms-3\e3ab1edcc3f8a65a35b85821b768d2c4\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+meta-data#com.facebook.soloader.enabled
+ADDED from [com.facebook.soloader:soloader:0.10.5] C:\Users\soler\.gradle\caches\transforms-3\732d9ea42786f048a0561eb4d2aea152\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:12:9-14:37
+	android:value
+		ADDED from [com.facebook.soloader:soloader:0.10.5] C:\Users\soler\.gradle\caches\transforms-3\732d9ea42786f048a0561eb4d2aea152\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:14:13-34
+	android:name
+		ADDED from [com.facebook.soloader:soloader:0.10.5] C:\Users\soler\.gradle\caches\transforms-3\732d9ea42786f048a0561eb4d2aea152\transformed\jetified-soloader-0.10.5\AndroidManifest.xml:13:13-57
