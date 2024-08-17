@@ -1,5 +1,12 @@
 import React, {useState, useEffect} from 'react';
-import {View, Text, StyleSheet, Image, PermissionsAndroid} from 'react-native';
+import {
+  View,
+  Text,
+  StyleSheet,
+  Image,
+  PermissionsAndroid,
+  Button,
+} from 'react-native';
 import QRCodeScanner from 'react-native-qrcode-scanner';
 import {RNCamera} from 'react-native-camera';
 import axios from 'axios';
@@ -26,11 +33,11 @@ const App = () => {
         buttonPositive: 'OK',
       },
     );
-    console.log(granted);
     setCameraPermission(granted === PermissionsAndroid.RESULTS.GRANTED);
   };
 
   const handleBarCodeScanned = ({type, data}) => {
+    console.log('BarCode read: ', type, data);
     setScannedURL(data);
     checkURL(data);
   };
@@ -48,6 +55,7 @@ const App = () => {
     }
   };
 
+
   if (hasCameraPermission === null) {
     return <Text>Requesting for camera permission</Text>;
   }
@@ -56,10 +64,23 @@ const App = () => {
   }
 
   return (
-      <QRCodeScanner
-        onRead={this.handleBarCodeScanned}
-      flashMode={RNCamera.Constants.FlashMode.torch}
-      />
+    <View style={styles.container}>
+      {responseStatus == null ? (
+        <QRCodeScanner
+          onRead={handleBarCodeScanned}
+          style={StyleSheet.absoluteFillObject}
+          reactivate={true}
+        />
+      ) : (
+        <>
+          <Image
+            source={require('./assets/green-tick.png')}
+            style={styles.tickIcon}
+          />
+          <Button title="Scan Again" onPress={() => setResponseStatus(null)} />
+        </>
+      )}
+    </View>
   );
 };
 const styles = StyleSheet.create({
